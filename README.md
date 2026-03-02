@@ -25,6 +25,11 @@ All results are generated from the real Online Retail dataset.
 The dataset used in this project is:
 
 Online Retail (Transactional e-commerce sales data)
+
+It has been hosted externally in the link below:
+
+https://www.kaggle.com/datasets/munemshariarshams/online-retail
+
 Includes the following key fields:
 
 InvoiceNo
@@ -151,7 +156,6 @@ quantity_sold_w39.csv
 | File Name | Description |
 |----------|-------------|
 | `Retail_Forecasting_PySpark.ipynb` | Main PySpark notebook containing data processing, feature engineering, model training, evaluation, and forecasting. |
-| `Online Retail.csv` | Original e-commerce dataset used for analysis. Include only if desired. |
 | `pd_daily_train_data.csv` | Daily-aggregated training dataset (all records up to 2011-09-25). |
 | `mae.csv` | Contains the Mean Absolute Error (MAE) calculated on the test predictions. |
 | `quantity_sold_w39.csv` | Predicted total units expected to be sold in Week 39 of 2011. |
