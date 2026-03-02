@@ -146,43 +146,19 @@ Stored in the repository:
 
 quantity_sold_w39.csv
 
-📁 Files Included
-File Name	Description
-Retail_Forecasting_PySpark.ipynb	Main PySpark notebook containing data processing, feature engineering, model training, evaluation, and forecasting.
-Online Retail.csv (optional)	Original e-commerce dataset used for analysis. Include only if desired.
-pd_daily_train_data.csv	Daily-aggregated training dataset (all records up to 2011-09-25).
-mae.csv	Contains the Mean Absolute Error (MAE) calculated on the test predictions.
-quantity_sold_w39.csv	Predicted total units expected to be sold in Week 39 of 2011.
-README.md	Full project documentation and explanation.
+**Files Included**
+
+| File Name | Description |
+|----------|-------------|
+| `Retail_Forecasting_PySpark.ipynb` | Main PySpark notebook containing data processing, feature engineering, model training, evaluation, and forecasting. |
+| `Online Retail.csv` *(optional)* | Original e-commerce dataset used for analysis. Include only if desired. |
+| `pd_daily_train_data.csv` | Daily-aggregated training dataset (all records up to 2011-09-25). |
+| `mae.csv` | Contains the Mean Absolute Error (MAE) calculated on the test predictions. |
+| `quantity_sold_w39.csv` | Predicted total units expected to be sold in Week 39 of 2011. |
+| `README.md` | Full project documentation and explanation. |
 
 
-▶️ How to Run the Project
-1. Install Dependencies
-
-Ensure you have PySpark installed:
-
-pip install pyspark
-
-Optional:
-
-pip install pandas numpy scikit-learn
-2. Place the dataset
-
-Ensure Online Retail.csv is located in the same folder as the notebook.
-
-3. Run the Notebook
-
-Execute sequentially to:
-
-Load and process the dataset
-
-Train the model
-
-Generate predictions
-
-Export output files
-
-📈 Key Insights
+**Key Insights**
 
 Daily sales forecasting helps balance inventory availability and operational cost.
 
@@ -190,10 +166,14 @@ Product demand shows strong variability by country, stock code, and weekday.
 
 The model provides reliable early indicators for promotional planning weeks.
 
-🏁 Final Outputs
-Output	File
+**Final Outputs**
+
+Output	Files:
+
 Training dataset	pd_daily_train_data.csv
+
 Mean Absolute Error (MAE)	mae.csv
+
 Forecast for Week 39 of 2011	quantity_sold_w39.csv
 
 All outputs were generated using the real dataset and saved for reproducibility.
